@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:IDLFaceSDK.framework"
+      name = "IDLFaceSDK.framework">
+      <FileRef
+         location = "group:IDLFaceSDK">
+      </FileRef>
+      <Group
+         location = "group:Headers"
+         name = "Headers">
+         <FileRef
+            location = "group:BDFaceCommon.h">
+         </FileRef>
+         <FileRef
+            location = "group:IDLFaceDetectionManager.h">
+         </FileRef>
+         <FileRef
+            location = "group:IDLFaceLivenessManager.h">
+         </FileRef>
+         <FileRef
+            location = "group:IDLFaceSDK.h">
+         </FileRef>
+         <FileRef
+            location = "group:FaceSDKManager.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Modules"
+         name = "Modules">
+         <FileRef
+            location = "group:module.modulemap">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Resource"
+      name = "Resource">
+      <Group
+         location = "group:detect"
+         name = "detect">
+         <FileRef
+            location = "group:detect_rgb-customized-pa-faceid4_0.model.int8-0.0.3.1">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:mouth_close"
+         name = "mouth_close">
+         <FileRef
+            location = "group:mouth-customized-pa-mobile.model.float32-b14e688d06bb">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:silent_live"
+         name = "silent_live">
+         <FileRef
+            location = "group:feature_live-mnasnet-pa-bpit8951_e06.model.int8.lite">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:occlusion"
+         name = "occlusion">
+         <FileRef
+            location = "group:occlusion-customized-pa-server.model.float32-2.0.1.1.lite">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:align"
+         name = "align">
+         <FileRef
+            location = "group:align-mobilenet-pa-rgb_faceid4_0.model.int8-e1f34b98a873">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:rgb_hui.png">
+      </FileRef>
+      <Group
+         location = "group:blur"
+         name = "blur">
+         <FileRef
+            location = "group:blur-customized-pa-server.model.float32-3.0.2.1.lite">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:eyes_close"
+         name = "eyes_close">
+         <FileRef
+            location = "group:eyes-customized-pa-mobile.model.float32-a48b3e9f602e">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:idl-license.face-ios-test">
+      </FileRef>
+      <FileRef
+         location = "group:idl-license.face-ios-collect-test-smz">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
